@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta nPMe="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noon-Evening Schedule</title>
+  </head>
+  <style>
+    :root {
+      --main-color: #ff7101;
+      --black-color: #171717;
+      --white-color: #ffffff;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--black-color);
+      color: var(--white-color);
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      max-height: 300px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .container img {
+      text-align: left;
+      margin-top: -60px;
+      height: 200px;
+      width: 200px;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: var(--main-color);
+      margin-bottom: 0;
+      margin-top: 2px;
+    }
+    h3 {
+      font-size: 28px;
+      font-weight: bold;
+      color: var(--black-color);
+      margin-bottom: 10px;
+      margin-top: 2px;
+    }
+    .timetable-container {
+      align-items: center;
+      text-align: center;
+      max-width: 1500px;
+    }
+    .timetable-container .timetable-table {
+      align-items: center;
+      text-align: center;
+    }
+    .timetable-container .timetable-table {
+      border: 4px solid var(--main-color);
+      border-radius: 10px;
+      margin-left: 33%;
+      border-collapse: collapse;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .timetable-container .timetable-table th,
+    tr,
+    td {
+      border: 2px solid var(--black-color);
+      border-radius: 10px;
+      border-collapse: collapse;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .timetable-container th {
+      font-size: 32px;
+    }
+    .timetable-container tr {
+      font-size: 25px;
+    }
+    .timetable-container .timetable-table td {
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="container">
+        <a href="../gym.html">
+          <img src="../Images/gymlogo.png" alt="" />
+        </a>
+        <hr style="margin-top: -20px" />
+        <h1>Schedule</h1>
+        <hr />
+      </div>
+    </header>
+    <section class="timetable" id="timetable">
+      <div class="timetable-container">
+        <h1 class="section-title">Gym Timetable</h1>
+        <h3 class="section-header">Effective Workouts for Every Schedule</h3>
+        <table class="timetable-table">
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+          </tr>
+          <tr>
+            <td>2:00 PM - 3:30 PM</td>
+            <td>Cardio</td>
+          </tr>
+          <tr>
+            <td>3:45 PM - 4:45 PM</td>
+            <td>Yoga & Meditation</td>
+          </tr>
+          <tr>
+            <td>5:00 PM - 6:00 PM</td>
+            <td>Strength Training</td>
+          </tr>
+          <tr>
+            <td>6:15 PM - 7:15 PM</td>
+            <td>Functional Fitness</td>
+          </tr>
+          <tr>
+            <td>7:30 PM - 8:30 PM</td>
+            <td>HIIT Workout</td>
+          </tr>
+          <tr>
+            <td>8:45 PM - 9:45 PM</td>
+            <td>Zumba & Dance Fitness</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
